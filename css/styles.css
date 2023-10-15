@@ -9,6 +9,12 @@ ul {
 a {
   text-decoration: none;
 }
+.header {
+  width: 1440px;
+  height: 72px;
+  background: var(--WHITE, #fff);
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+}
 .logo {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
@@ -18,6 +24,9 @@ a {
   line-height: 1.17;
   letter-spacing: 0.4px;
   text-transform: uppercase;
+  padding-left: 156px;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 
 .logo-studio {
@@ -29,13 +38,21 @@ a {
   line-height: 1.17;
   letter-spacing: 0.4px;
   text-transform: uppercase;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 .navigation {
+  display: flex;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.4px;
+
+  flex-shrink: 0;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-item .link {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -44,6 +61,15 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.4px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 40px;
+}
+.nav-item {
+  display: flex;
+
+  margin-left: 347px;
+  padding-right: 40px;
 }
 .nav-item .link:hover,
 .link:focus {
@@ -56,8 +82,16 @@ a {
 }
 .adr {
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.adr-item {
+  display: flex;
 }
 .adr .link {
+  padding-right: 156px;
+  display: flex;
+
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-style: normal;
@@ -76,16 +110,28 @@ a {
 }
 
 .main-section {
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+
   background: var(--NAVY-BLUE, #2e2f42);
+}
+.main-section .container {
+  flex-direction: column;
 }
 .title-main {
   color: var(--WHITE, #fff);
+  width: 496px;
   text-align: center;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.4px;
+  padding-top: 188px;
+  padding-right: 472px;
+  padding-left: 472px;
+  padding-bottom: 292px;
 }
 .button-main {
   font-family: "Roboto", sans-serif;
@@ -160,4 +206,26 @@ a {
 }
 .photo-card {
   background-color: #ffffff;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.container {
+  display: flex;
+  width: 1158px;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
