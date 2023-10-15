@@ -1,0 +1,163 @@
+body {
+  color: var(--NAVY-BLUE, #434455);
+  background-color: #fff;
+  font-family: Roboto, sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.logo-studio {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+.navigation {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+.nav-item .link {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+.nav-item .link:hover,
+.link:focus {
+  color: var(--OCEAN, #404bbf);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+.adr {
+  font-style: normal;
+}
+.adr .link {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+.adr .link:hover,
+.link:focus {
+  color: var(--OCEAN, #404bbf);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+
+.main-section {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.title-main {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.4px;
+}
+.button-main {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  color: var(--WHITE, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  background: var(--IRIS, #4d5ae5);
+}
+.button-main:hover,
+.button-main:focus {
+  background: var(--OCEAN, #404bbf);
+}
+.invisible {
+  color: #fff;
+}
+.title-three {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  background-color: #ffffff;
+}
+
+.text {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  background-color: #ffffff;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.title-second {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+}
+.section-footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.logo-studio-footer {
+  color: var(--CLOUD, #f4f4fd);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+.footer-p {
+  color: var(--CLOUD, #f4f4fd);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+.photo-card {
+  background-color: #ffffff;
+}
