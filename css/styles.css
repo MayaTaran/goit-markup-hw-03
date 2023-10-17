@@ -17,6 +17,10 @@ img {
   background: var(--WHITE, #fff);
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
+.header-item.container {
+  width: 1158px;
+  padding: 0 15px;
+}
 .logo {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
@@ -50,6 +54,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.4px;
   width: 1158px;
+  padding: 24px 0;
+  align-items: center;
   padding: 24px 0;
 }
 .nav-item .link {
@@ -110,7 +116,7 @@ img {
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
-
+  padding: 188px 0;
   background: var(--NAVY-BLUE, #2e2f42);
 }
 .main-section .container {
@@ -124,7 +130,6 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.4px;
-  padding-top: 188px;
   margin-right: 472px;
   margin-left: 472px;
   padding-bottom: 48px;
@@ -155,7 +160,12 @@ img {
   background: var(--OCEAN, #404bbf);
 }
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 .discription {
   padding-top: 120px;
@@ -200,14 +210,12 @@ img {
   padding: 120px 0;
   background-color: #f4f4fd;
   width: 1440px;
-  height: 732px;
 }
 .team .container {
   flex-direction: column;
 }
 .team .title-second {
   margin-bottom: 72px;
-  margin-top: 120px;
 }
 .team-photo {
   display: flex;
@@ -221,11 +229,10 @@ img {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-/*.name-job {
-  display: flex;
+.name-job {
   padding: 32px 0;
   gap: 24px;
-}*/
+}
 .name-job .title-three {
   text-align: center;
   margin-top: 32px;
@@ -261,7 +268,7 @@ img {
 }
 .portfolio-card {
   margin-bottom: 48px;
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+
   background: var(--WHITE, #fff);
 }
 .portfolio-card:first-child {
@@ -271,9 +278,8 @@ img {
   margin-top: 120px;
   margin-bottom: 72px;
 }
-.portfolio-card .title-three {
+.app-category .title-three {
   text-align: center;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .portfolio-card .text {
@@ -282,6 +288,11 @@ img {
 }
 .portfolio .container {
   flex-direction: column;
+}
+.app-category {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .section-footer {
   padding: 100px 0;
@@ -299,8 +310,9 @@ img {
   text-transform: uppercase;
   margin-left: 156px;
 }
-.logo-footer .link {
+a .logo-footer {
   display: inline-block;
+
   margin-bottom: 16px;
 }
 .logo-studio-footer {
