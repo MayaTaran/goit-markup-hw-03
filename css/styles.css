@@ -34,6 +34,7 @@ img {
   margin-top: 25.5px;
   margin-bottom: 25.5px;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .logo-studio {
@@ -90,7 +91,7 @@ img {
   margin-top: 24px;
   margin-right: 156px;
   margin-bottom: 24px;
-  padding: 1.5;
+  padding: 1.5px;
 }
 .adr .link {
   display: flex;
@@ -137,7 +138,7 @@ img {
 }
 .button-main {
   font-family: "Roboto", sans-serif;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
 
   cursor: pointer;
@@ -148,7 +149,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.4px;
   background: var(--IRIS, #4d5ae5);
-  min-width: 169px;
+
   align-items: flex-start;
   border-radius: 4px;
   margin-right: 635px;
@@ -160,16 +161,16 @@ img {
 .button-main:focus {
   background: var(--OCEAN, #404bbf);
 }
-/*.visually-hidden {
+.visually-hidden {
   position: absolute;
-  left: -10000px;
-  top: auto;
   width: 1px;
   height: 1px;
+  padding: 0;
+  margin: -1px;
   overflow: hidden;
-}*/
-.invis {
-  visibility: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 .discription {
   padding-top: 120px;
@@ -181,7 +182,7 @@ img {
 
   justify-content: space-between;
 }
-.disc-list-first {
+.disc-list {
   width: calc((100% - 72px) / 4);
 }
 .discription .title-three {
@@ -325,6 +326,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.4px;
   text-transform: uppercase;
+  display: inline-block;
 }
 .footer-p {
   color: var(--CLOUD, #f4f4fd);
