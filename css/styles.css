@@ -69,8 +69,8 @@ img {
 }
 .nav-item {
   display: flex;
-  padding: 24px 0;
-  padding: 0 15px 0 15px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   gap: 40px;
 }
 .nav-item .link:hover,
@@ -140,7 +140,6 @@ img {
   font-family: "Roboto", sans-serif;
   min-width: 169px;
   height: 56px;
-
   cursor: pointer;
   color: var(--WHITE, #fff);
   font-size: 16px;
@@ -149,7 +148,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.4px;
   background: var(--IRIS, #4d5ae5);
-
   align-items: flex-start;
   border-radius: 4px;
   margin-right: 635px;
@@ -165,12 +163,14 @@ img {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
   border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .discription {
   padding-top: 120px;
@@ -326,7 +326,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.4px;
   text-transform: uppercase;
-  display: inline-block;
 }
 .footer-p {
   color: var(--CLOUD, #f4f4fd);
