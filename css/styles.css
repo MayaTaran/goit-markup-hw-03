@@ -68,7 +68,7 @@ img {
 }
 .nav-item {
   display: flex;
-  margin-top: 24px;
+  padding: 24px 0;
   padding: 0 15px 0 15px;
   gap: 40px;
 }
@@ -139,6 +139,7 @@ img {
   font-family: "Roboto", sans-serif;
   width: 169px;
   height: 56px;
+
   cursor: pointer;
   color: var(--WHITE, #fff);
   font-size: 16px;
@@ -159,13 +160,16 @@ img {
 .button-main:focus {
   background: var(--OCEAN, #404bbf);
 }
-.visually-hidden {
+/*.visually-hidden {
   position: absolute;
   left: -10000px;
   top: auto;
   width: 1px;
   height: 1px;
   overflow: hidden;
+}*/
+.invis {
+  visibility: hidden;
 }
 .discription {
   padding-top: 120px;
@@ -177,7 +181,7 @@ img {
 
   justify-content: space-between;
 }
-.discription-list:first-child {
+.disc-list-first {
   width: calc((100% - 72px) / 4);
 }
 .discription .title-three {
@@ -300,6 +304,7 @@ img {
   background: var(--NAVY-BLUE, #2e2f42);
 }
 .logo-footer {
+  display: inline-block;
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -309,10 +314,6 @@ img {
   letter-spacing: 0.4px;
   text-transform: uppercase;
   margin-left: 156px;
-}
-a .logo-footer {
-  display: inline-block;
-
   margin-bottom: 16px;
 }
 .logo-studio-footer {
@@ -356,7 +357,9 @@ ol {
 }
 .container {
   display: flex;
-  width: 1440px;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .section {
   padding-top: 120px;
