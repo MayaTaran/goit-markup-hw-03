@@ -149,7 +149,7 @@ img {
   letter-spacing: 0.4px;
   background: var(--IRIS, #4d5ae5);
   border-radius: 4px;
-  margin-right: 0 auto;
+  margin: 0 auto;
   height: 56px;
   border: none;
   display: block;
