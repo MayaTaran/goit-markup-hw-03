@@ -140,7 +140,6 @@ img {
 .button-main {
   font-family: "Roboto", sans-serif;
   min-width: 169px;
-  height: 56px;
   cursor: pointer;
   color: var(--WHITE, #fff);
   font-size: 16px;
@@ -149,7 +148,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.4px;
   background: var(--IRIS, #4d5ae5);
-  align-items: flex-start;
   border-radius: 4px;
   margin-right: 635px;
   margin-bottom: 188px;
