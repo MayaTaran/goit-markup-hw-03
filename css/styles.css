@@ -152,7 +152,7 @@ img {
   margin: 0 auto;
   height: 56px;
   border: none;
-  display: flex;
+  display: block;
 }
 .button-main:hover,
 .button-main:focus {
