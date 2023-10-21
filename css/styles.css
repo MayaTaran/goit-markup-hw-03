@@ -299,10 +299,12 @@ header .container {
   flex-shrink: 0;
   background: var(--NAVY-BLUE, #2e2f42);
 }
-.container.logo-footer {
+.logo-footer,
+.logo-studio-footer {
   display: inline-block;
 }
 .logo-footer {
+  display: inline-block;
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -312,7 +314,6 @@ header .container {
   letter-spacing: 0.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
-  display: inline-block;
 }
 .footer-p {
   color: var(--CLOUD, #f4f4fd);
@@ -326,9 +327,7 @@ header .container {
   margin-left: 156px;
   padding-bottom: 100px;
 }
-.logo-studio-footer {
-  display: inline-block;
-}
+
 .photo-card {
   background-color: #ffffff;
 }
