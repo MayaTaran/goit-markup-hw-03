@@ -299,7 +299,7 @@ header .container {
   flex-shrink: 0;
   background: var(--NAVY-BLUE, #2e2f42);
 }
-.logo-footer,
+.web,
 .logo-studio-footer {
   display: inline-block;
 }
