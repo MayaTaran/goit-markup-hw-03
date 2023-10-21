@@ -308,8 +308,6 @@ header .container {
   line-height: 1.17;
   letter-spacing: 0.4px;
   text-transform: uppercase;
-}
-.web {
   margin-bottom: 16px;
   display: inline-block;
 }
@@ -322,11 +320,13 @@ header .container {
   letter-spacing: 0.4px;
   margin-top: 17.5px;
   width: 264px;
+}
+
+footer.container {
   margin-left: 156px;
   padding-bottom: 100px;
   display: inline-block;
 }
-
 .photo-card {
   background-color: #ffffff;
 }
