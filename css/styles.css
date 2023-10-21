@@ -156,6 +156,7 @@ img {
 }
 .button-main:hover,
 .button-main:focus {
+  height: 56px;
   background: var(--OCEAN, #404bbf);
 }
 .visually-hidden {
@@ -324,6 +325,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.4px;
   text-transform: uppercase;
+  display: inline-block;
 }
 .footer-p {
   color: var(--CLOUD, #f4f4fd);
