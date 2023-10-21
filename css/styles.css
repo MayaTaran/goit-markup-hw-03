@@ -325,6 +325,9 @@ header .container {
   margin-left: 156px;
   padding-bottom: 100px;
 }
+.logo-studio-footer {
+  display: inline-block;
+}
 .photo-card {
   background-color: #ffffff;
 }
