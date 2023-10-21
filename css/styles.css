@@ -308,6 +308,8 @@ header .container {
   line-height: 1.17;
   letter-spacing: 0.4px;
   text-transform: uppercase;
+}
+.bottom {
   margin-bottom: 16px;
   display: inline-block;
 }
