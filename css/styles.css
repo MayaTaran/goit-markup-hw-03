@@ -303,7 +303,7 @@ header .container {
 .logo-studio-footer {
   display: inline-block;
 }
-.logo-footer {
+.web {
   display: inline-block;
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
