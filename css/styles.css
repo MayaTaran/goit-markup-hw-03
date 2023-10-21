@@ -299,10 +299,6 @@ header .container {
   flex-shrink: 0;
   background: var(--NAVY-BLUE, #2e2f42);
 }
-.web,
-.logo-studio-footer {
-  display: inline-block;
-}
 .web {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
@@ -312,6 +308,8 @@ header .container {
   line-height: 1.17;
   letter-spacing: 0.4px;
   text-transform: uppercase;
+}
+.web {
   margin-bottom: 16px;
   display: inline-block;
 }
