@@ -312,6 +312,7 @@ header .container {
   letter-spacing: 0.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-p {
   color: var(--CLOUD, #f4f4fd);
