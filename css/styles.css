@@ -324,11 +324,11 @@ header .container {
   text-align: center;
   margin-bottom: 32px;
 }
-footer.container {
+
+.section-footer .container {
   flex-direction: column;
-}
-.section-footer {
   padding: 100px 0;
+
   background: var(--NAVY-BLUE, #2e2f42);
 }
 .web {
@@ -340,7 +340,8 @@ footer.container {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  padding-bottom: 17.5px;
+  margin-left: 156px;
 }
 
 .footer-p {
@@ -350,8 +351,8 @@ footer.container {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.4px;
-  margin-top: 17.5px;
-  width: 264px;
+  max-width: 264px;
+  margin-left: 156px;
 }
 .logo-studio-footer {
   color: var(--CLOUD, #f4f4fd);
