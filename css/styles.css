@@ -6,9 +6,6 @@ body {
 ul {
   list-style-type: none;
 }
-a {
-  text-decoration: none;
-}
 .photo-card {
   background-color: #ffffff;
 }
@@ -23,6 +20,7 @@ img {
   padding: 0 15px;
 }
 .link {
+  text-decoration: none;
   padding: 24px 0;
 }
 h1,
