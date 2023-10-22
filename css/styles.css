@@ -325,11 +325,13 @@ header .container {
   margin-bottom: 32px;
 }
 
-.section-footer .container {
-  flex-direction: column;
+.section-footer {
   padding: 100px 0;
 
   background: var(--NAVY-BLUE, #2e2f42);
+}
+.section-footer .container {
+  flex-direction: column;
 }
 .web {
   display: inline-block;
@@ -340,7 +342,7 @@ header .container {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-bottom: 17.5px;
+  margin-bottom: 16px;
   margin-left: 156px;
 }
 
